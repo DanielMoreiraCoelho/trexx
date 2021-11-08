@@ -53,7 +53,7 @@ function setup() {
   createCanvas(600, 200);
 
   trex = createSprite(50,160,20,50);
-  //trex.addAnimation("running", trex_correndo);
+  trex.addAnimation("running", trex_correndo);
   trex.addAnimation("morreu",trex_colidiu);
   trex.scale = 0.5;
   
